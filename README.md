@@ -55,10 +55,9 @@ The API will start in development mode.
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET    | /videos  | Get all videos |
 | GET    | /videos/<id> | Get a specific video |
-| POST   | /videos  | Create a new video |
-| PUT    | /videos/<id> | Update a video |
+| POST   | /videos/<id>  | Create a new video |
+| PATCH    | /videos/<id> | Update a video |
 | DELETE | /videos/<id> | Delete a video |
 
 ---
