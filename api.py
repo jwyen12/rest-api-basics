@@ -86,7 +86,5 @@ class Video(Resource):
         
 api.add_resource(Video, "/video/<string:video_id>")
 
-
-
 if __name__ == "__main__":
     app.run(debug=True)
